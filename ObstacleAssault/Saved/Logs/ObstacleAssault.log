@@ -2748,3 +2748,794 @@ Detoured run took 1.9s
 [2025.08.07-09.34.35:865][794]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9370.366211
 [2025.08.07-09.34.36:196][813]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.07-09.34.36:196][813]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9370.682617, Update Interval: 325.121002
+[2025.08.07-09.40.02:567][951]LogStreaming: Display: FlushAsyncLoading(502): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.07-09.40.14:832][586]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.08.07-09.40.58:145][147]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9752.654297
+[2025.08.07-09.40.58:459][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-09.40.58:460][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9752.954102, Update Interval: 345.298004
+[2025.08.07-09.47.14:437][244]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10128.939453
+[2025.08.07-09.47.14:760][262]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-09.47.14:761][262]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10129.248047, Update Interval: 330.187683
+[2025.08.07-09.53.32:959][622]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10507.425781
+[2025.08.07-09.53.33:292][642]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-09.53.33:292][642]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10507.743164, Update Interval: 345.058136
+[2025.08.07-09.59.42:171][564]LogDerivedDataCache: C:/Users/buidu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.006 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.07-10.00.01:270][654]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2025.08.07-10.00.01:270][654]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{8a128008-1bed-4a9d-8210-1d8902ecd9ec}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.08.07-10.00.01:273][654]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{8a128008-1bed-4a9d-8210-1d8902ecd9ec}]
+[2025.08.07-10.00.01:274][654]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.08.07-10.00.01:277][654]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.08.07-10.00.01:566][666]LogAudioMixer: Warning: FMixerPlatformXAudio2::OnCriticalError: 0x88880001: UNKNOWN
+[2025.08.07-10.00.03:642][747]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8a128008-1bed-4a9d-8210-1d8902ecd9ec}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=2322.94
+[2025.08.07-10.00.03:644][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.07-10.00.03:644][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.07-10.00.03:654][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.07-10.00.10:627][124]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10905.091797
+[2025.08.07-10.00.10:977][142]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.00.10:978][142]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10905.426758, Update Interval: 304.596100
+[2025.08.07-10.06.11:246][573]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11265.657227
+[2025.08.07-10.06.11:647][597]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.06.11:647][597]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11266.043945, Update Interval: 322.625214
+[2025.08.07-10.12.30:133][228]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11644.558594
+[2025.08.07-10.12.30:485][249]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.12.30:486][249]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11644.892578, Update Interval: 303.859985
+[2025.08.07-10.14.17:560][652]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek(R) Audio), InstanceID=1
+[2025.08.07-10.14.17:561][652]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{32940d04-2d61-4a6a-972a-082253af6da5}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.08.07-10.14.17:571][653]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{32940d04-2d61-4a6a-972a-082253af6da5}]
+[2025.08.07-10.14.17:571][653]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.08.07-10.14.17:574][653]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.08.07-10.14.18:787][718]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{32940d04-2d61-4a6a-972a-082253af6da5}, Name=Headphones (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1196.51
+[2025.08.07-10.14.18:788][718]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.07-10.14.18:788][718]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.07-10.14.18:793][718]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.07-10.18.07:739][380]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11982.217773
+[2025.08.07-10.18.08:090][401]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.18.08:091][401]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11982.550781, Update Interval: 306.795258
+[2025.08.07-10.23.50:110][867]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12324.560547
+[2025.08.07-10.23.50:443][887]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.23.50:443][887]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12324.876953, Update Interval: 300.721466
+[2025.08.07-10.29.27:964][ 93]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12662.368164
+[2025.08.07-10.29.28:614][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.29.28:615][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12662.999023, Update Interval: 315.855591
+[2025.08.07-10.35.17:326][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13011.714844
+[2025.08.07-10.35.17:665][811]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.35.17:666][811]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13012.038086, Update Interval: 325.540344
+[2025.08.07-10.41.41:410][615]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13395.833008
+[2025.08.07-10.41.41:759][636]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.41.41:759][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13396.165039, Update Interval: 322.183899
+[2025.08.07-10.44.35:710][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube
+[2025.08.07-10.44.35:757][640]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.08.07-10.44.36:807][640]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2025.08.07-10.44.41:203][795]LogSlate: Window 'Content Browser' being destroyed
+[2025.08.07-10.44.41:219][795]LogSlate: Window 'Content Browser' being destroyed
+[2025.08.07-10.44.43:904][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.44.44:011][951]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_PushingCube] ([2] browsable assets)...
+[2025.08.07-10.44.44:013][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PushingCube]
+[2025.08.07-10.44.44:014][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PushingCube" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset" SILENT=true
+[2025.08.07-10.44.44:073][951]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PushingCube
+[2025.08.07-10.44.44:073][951]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_PushingCube27C3E0424C47C98C364031B359FF13E8.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset'
+[2025.08.07-10.44.44:118][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.201 ms (total: 3.08 sec)
+[2025.08.07-10.44.44:222][951]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.44.44:222][951]LogContentValidation: Enabled validators:
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.44.44:222][951]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.44.44:224][951]AssetCheck: /Game/Blueprints/BP_PushingCube Validating asset
+[2025.08.07-10.44.44:253][951]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/SourceControl/UncontrolledChangelists.json
+[2025.08.07-10.45.16:970][737]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.07-10.46.08:014][570]LogUObjectHash: Compacting FUObjectHashTables data took  13.14ms
+[2025.08.07-10.46.09:569][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.46.09:663][659]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_PushingCube] ([2] browsable assets)...
+[2025.08.07-10.46.09:681][659]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube]
+[2025.08.07-10.46.09:681][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PushingCube]
+[2025.08.07-10.46.09:681][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PushingCube" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset" SILENT=true
+[2025.08.07-10.46.09:699][659]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PushingCube
+[2025.08.07-10.46.09:699][659]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_PushingCube8DA32C844ED0D003832207B91D76C8A0.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset'
+[2025.08.07-10.46.09:714][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.110 ms (total: 3.22 sec)
+[2025.08.07-10.46.09:809][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.46.09:809][659]LogContentValidation: Enabled validators:
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.46.09:809][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.46.09:810][659]AssetCheck: /Game/Blueprints/BP_PushingCube Validating asset
+[2025.08.07-10.46.21:328][306]LogPSOHitching: Encountered 200 PSO creation hitches so far (160 graphics, 40 compute). 0 of them were precached.
+[2025.08.07-10.46.22:081][337]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-10.46.22:081][337]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-10.46.22:090][337]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_0
+[2025.08.07-10.46.22:094][337]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_0
+[2025.08.07-10.46.23:451][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2025.08.07-10.46.23:522][381]LogEditorActor: Deleted 0 Actors (0.135 secs)
+[2025.08.07-10.46.23:538][381]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-10.46.23:539][381]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-10.46.23:552][381]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_1
+[2025.08.07-10.46.23:554][381]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_1
+[2025.08.07-10.47.17:745][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.08.07-10.47.19:052][523]LogSlate: Window 'Save Content' being destroyed
+[2025.08.07-10.47.19:077][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.47.19:156][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.07-10.47.19:232][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.07-10.47.19:408][523]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2025.08.07-10.47.19:409][523]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/MainCAAF9FC042592FE18A9E528E9A5F0CEB.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap'
+[2025.08.07-10.47.19:435][523]LogFileHelpers: Saving map 'Main' took 0.281
+[2025.08.07-10.47.19:435][523]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_PushingCube] ([2] browsable assets)...
+[2025.08.07-10.47.19:435][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PushingCube]
+[2025.08.07-10.47.19:435][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PushingCube" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset" SILENT=true
+[2025.08.07-10.47.19:448][523]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PushingCube
+[2025.08.07-10.47.19:448][523]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_PushingCubeA762EEB34D2E55CABDD98D805E03093C.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset'
+[2025.08.07-10.47.19:462][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 384.984 ms (total: 3.61 sec)
+[2025.08.07-10.47.19:549][523]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.07-10.47.19:549][523]LogContentValidation: Enabled validators:
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.47.19:549][523]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.47.19:550][523]AssetCheck: /Game/Maps/Main Validating asset
+[2025.08.07-10.47.19:550][523]AssetCheck: /Game/Blueprints/BP_PushingCube Validating asset
+[2025.08.07-10.47.39:231][604]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-10.47.39:274][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.07-10.47.39:286][604]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.47.39:399][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112743s)
+[2025.08.07-10.47.39:399][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.113440s)
+[2025.08.07-10.47.39:445][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.08.07-10.47.39:451][604]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-10.47.39:476][604]LogPlayLevel: PIE: World Init took: (0.025441s)
+[2025.08.07-10.47.39:480][604]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-10.47.39:482][604]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-10.47.39:482][604]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-10.47.39:484][604]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-10.47.39:485][604]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-10.47.39:485][604]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-10.47.39:493][604]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-10.47.39:702][604]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-10.47.39:706][604]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-10.47.39:707][604]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-10.47.39:708][604]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-10.47.39:710][604]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.08.07-10.47.39:710][604]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.08.07-10.47.39:713][604]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.08.07-10.47.39:713][604]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.08.07-10.47.39:713][604]LogInit: FAudioDevice initialized with ID 21.
+[2025.08.07-10.47.39:713][604]LogAudio: Display: Audio Device (ID: 21) registered with world 'Main'.
+[2025.08.07-10.47.39:715][604]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.08.07-10.47.39:740][604]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-10.47.39:800][604]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.47.39:800][604]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.47.39:810][604]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-10.47.39:838][604]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-17.47.39
+[2025.08.07-10.47.41:887][604]LogWorld: Bringing up level for play took: 2.144906
+[2025.08.07-10.47.41:900][604]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.08.07-10.47.41:930][604]PIE: Server logged in
+[2025.08.07-10.47.41:933][604]PIE: Play in editor total start time 2.689 seconds.
+[2025.08.07-10.47.43:963][705]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2025.08.07-10.47.50:979][125]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13765.367188
+[2025.08.07-10.47.51:296][144]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.47.51:296][144]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13765.666992, Update Interval: 341.774963
+[2025.08.07-10.48.03:210][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.48.03:211][855]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.48.03:218][855]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.48.03:232][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.48.03:261][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-10.48.03:280][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.48.03:331][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.07-10.48.03:332][855]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.08.07-10.48.03:335][855]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=4
+[2025.08.07-10.48.03:341][855]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21, StreamState=2
+[2025.08.07-10.48.03:353][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.48.03:384][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2025.08.07-10.48.03:466][856]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.08.07-10.48.53:287][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.48.53:383][767]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_PushingCube] ([2] browsable assets)...
+[2025.08.07-10.48.53:406][767]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube]
+[2025.08.07-10.48.53:406][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PushingCube]
+[2025.08.07-10.48.53:406][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PushingCube" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset" SILENT=true
+[2025.08.07-10.48.53:423][767]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PushingCube
+[2025.08.07-10.48.53:423][767]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_PushingCube9ED886434F57A1F2D2FB8AB41488A0AC.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_PushingCube.uasset'
+[2025.08.07-10.48.53:441][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.442 ms (total: 3.76 sec)
+[2025.08.07-10.48.53:554][767]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.48.53:554][767]LogContentValidation: Enabled validators:
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.48.53:554][767]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.48.53:554][767]AssetCheck: /Game/Blueprints/BP_PushingCube Validating asset
+[2025.08.07-10.49.51:999][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.08.07-10.49.51:999][ 91]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.07-10.49.52:604][ 91]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.49.52:604][ 91]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_11:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.49.52:845][ 94]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.08.07-10.49.54:154][165]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.49.54:155][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.49.54:206][165]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.08.07-10.49.54:207][165]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.08.07-10.49.54:896][165]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.49.54:897][165]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.49.55:062][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2025.08.07-10.51.58:053][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2025.08.07-10.51.58:059][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:060][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.51.58:062][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:062][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.51.58:064][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:065][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.51.58:067][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:067][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_1.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.51.58:077][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:077][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.51.58:079][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:079][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.51.58:082][506]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.51.58:082][506]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_1.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.52.54:444][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.52.54:576][604]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.07-10.52.54:598][604]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.07-10.52.54:598][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.07-10.52.54:598][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ThirdPersonCharacter" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2025.08.07-10.52.54:621][604]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ThirdPersonCharacter
+[2025.08.07-10.52.54:622][604]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_ThirdPersonCharacter6E1E8271478E0883F3CC71A4E4C9F2D6.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.08.07-10.52.54:641][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 196.443 ms (total: 3.96 sec)
+[2025.08.07-10.52.54:738][604]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.52.54:738][604]LogContentValidation: Enabled validators:
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.52.54:738][604]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.52.54:738][604]AssetCheck: /Game/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.08.07-10.52.55:565][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.08.07-10.52.55:576][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:577][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.52.55:580][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:580][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.52.55:583][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:583][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_1.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.52.55:585][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:585][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_2.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.52.55:593][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:594][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.52.55:596][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:597][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.52.55:600][640]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.55:600][640]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_2.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.52.57:444][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-10.52.57:472][740]LogPlayLevel: [PlayLevel] Compiling BP_PushingCube before play...
+[2025.08.07-10.52.57:573][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.08.07-10.52.57:577][740]LogPlayLevel: PlayLevel: Blueprint regeneration took 107 ms (1 blueprints)
+[2025.08.07-10.52.57:583][740]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.52.57:660][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076034s)
+[2025.08.07-10.52.57:660][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.076385s)
+[2025.08.07-10.52.57:695][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.08.07-10.52.57:701][740]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-10.52.57:719][740]LogPlayLevel: PIE: World Init took: (0.018767s)
+[2025.08.07-10.52.57:723][740]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-10.52.57:724][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-10.52.57:724][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-10.52.57:726][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-10.52.57:726][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-10.52.57:726][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-10.52.57:730][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-10.52.57:933][740]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-10.52.57:935][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-10.52.57:935][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-10.52.57:935][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-10.52.57:938][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.08.07-10.52.57:938][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.08.07-10.52.57:943][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.08.07-10.52.57:943][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.08.07-10.52.57:943][740]LogInit: FAudioDevice initialized with ID 22.
+[2025.08.07-10.52.57:943][740]LogAudio: Display: Audio Device (ID: 22) registered with world 'Main'.
+[2025.08.07-10.52.57:944][740]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.08.07-10.52.58:013][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.52.58:017][740]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-10.52.58:039][740]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.52.58:039][740]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.52.58:040][740]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-10.52.58:053][740]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-17.52.58
+[2025.08.07-10.52.59:944][740]LogWorld: Bringing up level for play took: 1.924988
+[2025.08.07-10.52.59:953][740]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.08.07-10.52.59:957][740]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.08.07-10.52.59:977][740]PIE: Server logged in
+[2025.08.07-10.52.59:979][740]PIE: Play in editor total start time 2.524 seconds.
+[2025.08.07-10.53.00:128][741]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2025.08.07-10.53.00:129][741]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2025.08.07-10.53.13:292][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.53.13:292][448]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.53.13:294][448]LogSlate: Window 'ObstacleAssault Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.08.07-10.53.13:309][448]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.53.13:316][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.53.13:347][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-10.53.13:369][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.53.13:437][448]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.08.07-10.53.13:438][448]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=4
+[2025.08.07-10.53.13:443][448]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22, StreamState=2
+[2025.08.07-10.53.13:488][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2025.08.07-10.53.13:769][449]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.08.07-10.53.18:981][749]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-10.53.18:993][749]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.08.07-10.53.19:169][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:169][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.53.19:174][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:174][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.53.19:178][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:179][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_2.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.53.19:181][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:181][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_3.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.53.19:190][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:190][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.53.19:193][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:193][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.53.19:196][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:196][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_3.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.53.19:239][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.08.07-10.53.19:242][749]LogPlayLevel: PlayLevel: Blueprint regeneration took 251 ms (1 blueprints)
+[2025.08.07-10.53.19:244][749]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.53.19:291][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046756s)
+[2025.08.07-10.53.19:291][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.046835s)
+[2025.08.07-10.53.19:327][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.08.07-10.53.19:329][749]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-10.53.19:331][749]LogPlayLevel: PIE: World Init took: (0.003228s)
+[2025.08.07-10.53.19:333][749]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-10.53.19:333][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-10.53.19:333][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-10.53.19:333][749]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-10.53.19:334][749]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-10.53.19:334][749]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-10.53.19:337][749]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-10.53.19:555][749]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-10.53.19:555][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-10.53.19:555][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-10.53.19:555][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-10.53.19:557][749]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.08.07-10.53.19:557][749]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.08.07-10.53.19:561][749]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.08.07-10.53.19:561][749]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.08.07-10.53.19:561][749]LogInit: FAudioDevice initialized with ID 23.
+[2025.08.07-10.53.19:561][749]LogAudio: Display: Audio Device (ID: 23) registered with world 'Main'.
+[2025.08.07-10.53.19:561][749]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.08.07-10.53.19:622][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.53.19:623][749]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-10.53.19:637][749]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.53.19:638][749]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.53.19:638][749]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-10.53.19:645][749]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-17.53.19
+[2025.08.07-10.53.21:583][749]LogWorld: Bringing up level for play took: 1.959756
+[2025.08.07-10.53.21:587][749]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.08.07-10.53.21:588][749]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.08.07-10.53.21:592][749]PIE: Server logged in
+[2025.08.07-10.53.21:594][749]PIE: Play in editor total start time 2.605 seconds.
+[2025.08.07-10.53.23:679][845]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2025.08.07-10.53.26:213][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.53.26:213][987]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.53.26:214][987]LogSlate: Window 'ObstacleAssault Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.08.07-10.53.26:224][987]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.53.26:229][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.53.26:239][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-10.53.26:249][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.53.26:293][987]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.08.07-10.53.26:293][987]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.08.07-10.53.26:296][987]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.08.07-10.53.26:309][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.08.07-10.53.26:500][988]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.08.07-10.54.27:236][396]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14161.613281
+[2025.08.07-10.54.27:572][416]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-10.54.27:572][416]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14161.936523, Update Interval: 334.351624
+[2025.08.07-10.55.23:802][632]LogUObjectHash: Compacting FUObjectHashTables data took  14.95ms
+[2025.08.07-10.55.23:911][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.23:912][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.55.23:925][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.23:925][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.55.23:932][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.23:932][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_3.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.55.23:939][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.23:939][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_4.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.55.24:008][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.24:008][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.55.24:016][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.24:016][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.55.24:023][632]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.55.24:023][632]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_4.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.56.34:617][614]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2025.08.07-10.56.34:626][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:626][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.56.34:635][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:635][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.56.34:642][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:642][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_4.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.56.34:648][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:648][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_5.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.56.34:665][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:665][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.56.34:674][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:674][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-10.56.34:681][614]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.34:681][614]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_5.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.56.35:866][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.56.35:971][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.07-10.56.36:045][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.08.07-10.56.36:258][634]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2025.08.07-10.56.36:259][634]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/MainC9A0EE2E41B9317BD04105960B59BB5E.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap'
+[2025.08.07-10.56.36:303][634]LogFileHelpers: Saving map 'Main' took 0.348
+[2025.08.07-10.56.36:318][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 452.955 ms (total: 4.41 sec)
+[2025.08.07-10.56.36:411][634]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.56.36:411][634]LogContentValidation: Enabled validators:
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.56.36:412][634]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.56.36:413][634]AssetCheck: /Game/Maps/Main Validating asset
+[2025.08.07-10.56.41:968][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.08.07-10.56.42:672][931]LogSlate: Window 'Save Content' being destroyed
+[2025.08.07-10.56.42:686][931]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-10.56.42:759][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.07-10.56.42:788][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.07-10.56.42:788][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.07-10.56.42:788][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ThirdPersonCharacter" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2025.08.07-10.56.42:815][931]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ThirdPersonCharacter
+[2025.08.07-10.56.42:815][931]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_ThirdPersonCharacter426087264B3C113243522E969AE4166A.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.08.07-10.56.42:829][931]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.174 ms (total: 4.55 sec)
+[2025.08.07-10.56.42:914][931]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-10.56.42:914][931]LogContentValidation: Enabled validators:
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-10.56.42:914][931]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-10.56.42:914][931]AssetCheck: /Game/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.08.07-10.56.43:823][985]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-10.56.43:855][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.07-10.56.43:862][985]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.56.43:957][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094709s)
+[2025.08.07-10.56.43:957][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.095344s)
+[2025.08.07-10.56.43:994][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.08.07-10.56.44:000][985]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-10.56.44:041][985]LogPlayLevel: PIE: World Init took: (0.041955s)
+[2025.08.07-10.56.44:059][985]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-10.56.44:061][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-10.56.44:061][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-10.56.44:063][985]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-10.56.44:063][985]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-10.56.44:063][985]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-10.56.44:069][985]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-10.56.44:267][985]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-10.56.44:276][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-10.56.44:276][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-10.56.44:277][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-10.56.44:292][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.08.07-10.56.44:292][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.08.07-10.56.44:295][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.08.07-10.56.44:295][985]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.08.07-10.56.44:295][985]LogInit: FAudioDevice initialized with ID 24.
+[2025.08.07-10.56.44:295][985]LogAudio: Display: Audio Device (ID: 24) registered with world 'Main'.
+[2025.08.07-10.56.44:296][985]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.08.07-10.56.44:366][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.56.44:369][985]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-10.56.44:401][985]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.56.44:401][985]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.56.44:401][985]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-10.56.44:432][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-17.56.44
+[2025.08.07-10.56.46:337][985]LogWorld: Bringing up level for play took: 1.967327
+[2025.08.07-10.56.46:352][985]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.08.07-10.56.46:356][985]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.08.07-10.56.46:383][985]PIE: Server logged in
+[2025.08.07-10.56.46:385][985]PIE: Play in editor total start time 2.549 seconds.
+[2025.08.07-10.57.07:020][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.57.07:020][101]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.57.07:026][101]LogSlate: Window 'ObstacleAssault Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.08.07-10.57.07:042][101]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.57.07:056][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.57.07:083][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-10.57.07:101][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.57.07:152][101]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.08.07-10.57.07:156][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=4
+[2025.08.07-10.57.07:160][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24, StreamState=2
+[2025.08.07-10.57.07:200][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.08.07-10.57.07:394][102]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.08.07-10.58.21:536][375]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2025.08.07-10.58.21:536][375]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2025.08.07-10.58.21:548][375]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2025.08.07-10.58.21:561][375]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2025.08.07-10.58.22:978][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.08.07-10.58.22:985][431]LogEditorActor: Deleted 0 Actors (0.058 secs)
+[2025.08.07-10.58.22:993][431]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2025.08.07-10.58.22:993][431]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2025.08.07-10.58.23:006][431]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2025.08.07-10.58.23:017][431]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2025.08.07-10.58.46:069][742]Cmd: TRANSACTION UNDO
+[2025.08.07-10.58.46:070][742]LogEditorTransaction: Undo Clicking on Elements
+[2025.08.07-10.58.46:779][765]Cmd: TRANSACTION UNDO
+[2025.08.07-10.58.46:781][765]LogEditorTransaction: Undo Set Location
+[2025.08.07-10.59.19:816][667]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-10.59.19:830][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.07-10.59.19:833][667]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.59.19:887][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054858s)
+[2025.08.07-10.59.19:887][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.054961s)
+[2025.08.07-10.59.19:933][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.08.07-10.59.19:942][667]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-10.59.19:945][667]LogPlayLevel: PIE: World Init took: (0.003189s)
+[2025.08.07-10.59.19:947][667]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-10.59.19:947][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-10.59.19:947][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-10.59.19:947][667]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-10.59.19:947][667]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-10.59.19:947][667]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-10.59.19:951][667]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-10.59.20:181][667]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-10.59.20:181][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-10.59.20:181][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-10.59.20:181][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-10.59.20:186][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.08.07-10.59.20:186][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.08.07-10.59.20:189][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.08.07-10.59.20:189][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.08.07-10.59.20:189][667]LogInit: FAudioDevice initialized with ID 25.
+[2025.08.07-10.59.20:189][667]LogAudio: Display: Audio Device (ID: 25) registered with world 'Main'.
+[2025.08.07-10.59.20:189][667]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.08.07-10.59.20:240][667]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-10.59.20:252][667]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-10.59.20:252][667]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-10.59.20:253][667]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-10.59.20:262][667]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-17.59.20
+[2025.08.07-10.59.22:338][667]LogWorld: Bringing up level for play took: 2.096735
+[2025.08.07-10.59.22:343][667]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.08.07-10.59.22:348][667]PIE: Server logged in
+[2025.08.07-10.59.22:351][667]PIE: Play in editor total start time 2.523 seconds.
+[2025.08.07-10.59.24:338][768]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2025.08.07-10.59.27:542][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.59.27:542][957]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-10.59.27:543][957]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-10.59.27:546][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.59.27:558][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-10.59.27:567][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-10.59.27:604][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.07-10.59.27:604][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.08.07-10.59.27:604][957]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=4
+[2025.08.07-10.59.27:608][957]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25, StreamState=2
+[2025.08.07-10.59.27:614][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-10.59.27:623][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.08.07-10.59.27:690][958]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.08.07-10.59.42:169][771]LogDerivedDataCache: C:/Users/buidu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.07-11.00.50:164][543]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14544.528320
+[2025.08.07-11.00.50:493][562]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-11.00.50:493][562]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14544.837891, Update Interval: 343.988770
+[2025.08.07-11.00.59:720][  6]Cmd: TRANSACTION UNDO
+[2025.08.07-11.00.59:721][  6]LogEditorTransaction: Undo Move Elements
+[2025.08.07-11.01.02:434][137]Cmd: TRANSACTION REDO
+[2025.08.07-11.01.02:434][137]LogEditorTransaction: Redo Move Elements
+[2025.08.07-11.01.43:776][381]Cmd: DELETE
+[2025.08.07-11.01.43:777][381]Cmd: ACTOR DELETE
+[2025.08.07-11.01.43:833][381]LogEditorActor: Deleted Actor: BP_PushingCube_C
+[2025.08.07-11.01.43:909][381]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2025.08.07-11.01.43:918][381]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2025.08.07-11.02.00:436][266]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.00:436][266]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.00:439][266]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_2
+[2025.08.07-11.02.00:441][266]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_2
+[2025.08.07-11.02.05:024][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.08.07-11.02.05:029][496]LogEditorActor: Deleted 0 Actors (0.049 secs)
+[2025.08.07-11.02.05:037][496]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.05:038][496]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.05:041][496]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_3
+[2025.08.07-11.02.05:044][496]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_3
+[2025.08.07-11.02.07:068][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.07:068][599]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.07:071][599]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_4
+[2025.08.07-11.02.07:073][599]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_4
+[2025.08.07-11.02.11:126][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.08.07-11.02.11:132][820]LogEditorActor: Deleted 0 Actors (0.041 secs)
+[2025.08.07-11.02.11:140][820]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.11:140][820]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.11:143][820]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_5
+[2025.08.07-11.02.11:145][820]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_5
+[2025.08.07-11.02.12:800][900]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.12:800][900]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.12:804][900]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_6
+[2025.08.07-11.02.12:808][900]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_6
+[2025.08.07-11.02.15:599][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.08.07-11.02.15:604][ 36]LogEditorActor: Deleted 0 Actors (0.042 secs)
+[2025.08.07-11.02.15:612][ 36]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.15:612][ 36]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PushingCube.BP_PushingCube_C
+[2025.08.07-11.02.15:616][ 36]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_7
+[2025.08.07-11.02.15:618][ 36]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PushingCube.BP_PushingCube as actor: BP_PushingCube_C /Game/Maps/Main.Main:PersistentLevel.BP_PushingCube_C_7
+[2025.08.07-11.03.12:399][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-11.03.12:509][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.07-11.03.12:588][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.08.07-11.03.12:745][220]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2025.08.07-11.03.12:746][220]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/MainF864A89A44BCFB5CD598D7A1FECBD21A.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Maps/Main.umap'
+[2025.08.07-11.03.12:763][220]LogFileHelpers: Saving map 'Main' took 0.255
+[2025.08.07-11.03.12:779][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 379.098 ms (total: 4.93 sec)
+[2025.08.07-11.03.12:899][220]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-11.03.12:899][220]LogContentValidation: Enabled validators:
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-11.03.12:899][220]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-11.03.12:899][220]AssetCheck: /Game/Maps/Main Validating asset
+[2025.08.07-11.03.13:388][247]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-11.03.13:400][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.07-11.03.13:402][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-11.03.13:457][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054458s)
+[2025.08.07-11.03.13:457][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.054560s)
+[2025.08.07-11.03.13:499][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.08.07-11.03.13:500][247]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-11.03.13:503][247]LogPlayLevel: PIE: World Init took: (0.003312s)
+[2025.08.07-11.03.13:504][247]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-11.03.13:504][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-11.03.13:504][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-11.03.13:504][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-11.03.13:504][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-11.03.13:504][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-11.03.13:508][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-11.03.13:732][247]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-11.03.13:733][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-11.03.13:733][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-11.03.13:733][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-11.03.13:735][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.08.07-11.03.13:735][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.08.07-11.03.13:737][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.08.07-11.03.13:738][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.08.07-11.03.13:738][247]LogInit: FAudioDevice initialized with ID 26.
+[2025.08.07-11.03.13:738][247]LogAudio: Display: Audio Device (ID: 26) registered with world 'Main'.
+[2025.08.07-11.03.13:738][247]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.08.07-11.03.13:748][247]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-11.03.13:763][247]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.03.13:763][247]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-11.03.13:763][247]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-11.03.13:773][247]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-18.03.13
+[2025.08.07-11.03.15:855][247]LogWorld: Bringing up level for play took: 2.107277
+[2025.08.07-11.03.15:862][247]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.08.07-11.03.15:867][247]PIE: Server logged in
+[2025.08.07-11.03.15:871][247]PIE: Play in editor total start time 2.472 seconds.
+[2025.08.07-11.03.17:851][347]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonSunWukong/Characters/Heroes/Wukong/Animations/SelectScreen_Start_Montage.SelectScreen_Start_Montage'
+[2025.08.07-11.03.45:822][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-11.03.45:822][977]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-11.03.45:823][977]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-11.03.45:830][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-11.03.45:844][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-11.03.45:858][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-11.03.45:898][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-11.03.45:900][977]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.08.07-11.03.45:900][977]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=4
+[2025.08.07-11.03.45:908][977]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26, StreamState=2
+[2025.08.07-11.03.45:923][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2025.08.07-11.03.46:002][978]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.08.07-11.05.32:599][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.08.07-11.05.32:607][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:608][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-11.05.32:612][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:612][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-11.05.32:616][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:616][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_5.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-11.05.32:621][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:621][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_6.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-11.05.32:635][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:636][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-11.05.32:639][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:639][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_13:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_1
+[2025.08.07-11.05.32:643][612]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.32:643][612]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.BP_ThirdPersonCharacter_C_6.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-11.05.34:256][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.07-11.05.34:355][705]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.08.07-11.05.34:381][705]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.08.07-11.05.34:381][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ThirdPersonCharacter]
+[2025.08.07-11.05.34:381][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ThirdPersonCharacter" FILE="../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2025.08.07-11.05.34:411][705]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ThirdPersonCharacter
+[2025.08.07-11.05.34:411][705]LogSavePackage: Moving '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Saved/BP_ThirdPersonCharacter3AF49FE5481C76E0C0A20FB2E565FAE6.tmp' to '../../../../../Learn-Unreal-Engine-Games/ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.08.07-11.05.34:428][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.122 ms (total: 5.10 sec)
+[2025.08.07-11.05.34:543][705]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.07-11.05.34:543][705]LogContentValidation: Enabled validators:
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.07-11.05.34:543][705]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.07-11.05.34:544][705]AssetCheck: /Game/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.08.07-11.05.35:755][775]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.07-11.05.35:776][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.07-11.05.35:777][775]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2025.08.07-11.05.35:829][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052461s)
+[2025.08.07-11.05.35:830][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.052556s)
+[2025.08.07-11.05.35:865][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.08.07-11.05.35:869][775]LogChaosDD: Creating Chaos Debug Draw Scene for world Main
+[2025.08.07-11.05.35:876][775]LogPlayLevel: PIE: World Init took: (0.007659s)
+[2025.08.07-11.05.35:878][775]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.07-11.05.35:878][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.07-11.05.35:878][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.07-11.05.35:878][775]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.07-11.05.35:878][775]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.07-11.05.35:878][775]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.07-11.05.35:884][775]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.07-11.05.36:111][775]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.08.07-11.05.36:114][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.07-11.05.36:115][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.07-11.05.36:115][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.07-11.05.36:116][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.08.07-11.05.36:116][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.08.07-11.05.36:119][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.08.07-11.05.36:119][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.08.07-11.05.36:119][775]LogInit: FAudioDevice initialized with ID 27.
+[2025.08.07-11.05.36:119][775]LogAudio: Display: Audio Device (ID: 27) registered with world 'Main'.
+[2025.08.07-11.05.36:119][775]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.08.07-11.05.36:205][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-11.05.36:206][775]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2025.08.07-11.05.36:221][775]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.08.07-11.05.36:221][775]LogScript: Warning: Script Msg called by: SunWukong_AnimBlueprint_C /Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.BP_ThirdPersonCharacter_C_0.CharacterMesh0.SunWukong_AnimBlueprint_C_0
+[2025.08.07-11.05.36:222][775]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Wukong'
+[2025.08.07-11.05.36:230][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2025.08.07-18.05.36
+[2025.08.07-11.05.38:191][775]LogWorld: Bringing up level for play took: 1.984472
+[2025.08.07-11.05.38:197][775]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.08.07-11.05.38:198][775]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.08.07-11.05.38:206][775]PIE: Server logged in
+[2025.08.07-11.05.38:208][775]PIE: Play in editor total start time 2.445 seconds.
+[2025.08.07-11.06.08:732][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.07-11.06.08:732][381]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2025.08.07-11.06.08:733][381]LogSlate: Window 'ObstacleAssault Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.08.07-11.06.08:742][381]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2025.08.07-11.06.08:748][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-11.06.08:761][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.07-11.06.08:779][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.07-11.06.08:826][381]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.08.07-11.06.08:826][381]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=4
+[2025.08.07-11.06.08:829][381]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27, StreamState=2
+[2025.08.07-11.06.08:849][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.08.07-11.06.08:937][382]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.08.07-11.07.32:838][236]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14947.231445
+[2025.08.07-11.07.33:170][256]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.07-11.07.33:171][256]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14947.548828, Update Interval: 337.418732
