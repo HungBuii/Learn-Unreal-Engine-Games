@@ -1,5 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+/*
+			https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/Logging/ELogVerbosity__Type?application_version=5.6#remarks
+			https://cplusplus.com/reference/cstdio/printf/
+*/
+
 #include "MovingPlatform.h"
 
 // Sets default values
@@ -36,23 +41,9 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 			Check how far we've moved
 			Reverse direction of motion if gone too far
 	*/
-
-	FVector currentLocation = GetActorLocation();
-	currentLocation += platformVelocity * DeltaTime;
-	SetActorLocation(currentLocation);
-
-	float distanceMoved = FVector::Dist(startLocation, currentLocation);
-
-	if (distanceMoved > moveDistance)
+	
+	if (ShouldPlatformReturn())
 	{
-		FString name = GetName();
-		float overShoot = distanceMoved - moveDistance;
-		UE_LOG(LogTemp, Display, TEXT("%s overshoot = %f"), *name, overShoot);
-		/*
-			https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/Logging/ELogVerbosity__Type?application_version=5.6#remarks
-			https://cplusplus.com/reference/cstdio/printf/
-		 */
-
 		FVector moveDirection = platformVelocity.GetSafeNormal();
 		/*
 		Gets a normalized copy of the vector, checking it is safe to do so based on the length
@@ -63,10 +54,32 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 		SetActorLocation(startLocation);
 		platformVelocity = -platformVelocity;
 	}
-	// test = distanceMoved;
+	else
+	{
+		FVector currentLocation = GetActorLocation();
+		currentLocation += platformVelocity * DeltaTime;
+		SetActorLocation(currentLocation);
+	}
 }
 
 void AMovingPlatform::RotatePlatform(float DeltaTime) 
 {
-	UE_LOG(LogTemp, Display, TEXT("Rotating... %s"), *GetName());
+	// FRotator currentRotation = GetActorRotation();
+	// currentRotation += rotationVelocity * DeltaTime;
+	// SetActorRotation(currentRotation); // -> If the "pitch" axis is rotated, an error will occur.
+	// test = currentRotation.Yaw;
+	
+	AddActorLocalRotation(rotationVelocity * DeltaTime); // good solution for rotating axes
+	test = GetActorRotation().Pitch;
+	UE_LOG(LogTemp, Display, TEXT("%f"), test);
+}
+
+bool AMovingPlatform::ShouldPlatformReturn() const
+{
+	return GetDistanceMoved() > moveDistance;
+}
+
+float AMovingPlatform::GetDistanceMoved() const
+{
+	return FVector::Dist(startLocation, GetActorLocation());
 }
