@@ -30,7 +30,10 @@ public:
 	float moveDistance = 100;
 
 	// UPROPERTY(VisibleAnywhere)
-	// float test = 0;
+	// float test = 0
 	
-	FVector startLocation; 
+	FVector startLocation = FVector(0, 0, 0);
+
+	void MovePlatform(float DeltaTime);
+	void RotatePlatform(float DeltaTime);
 };

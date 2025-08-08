@@ -13,7 +13,7 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	startLocation = GetActorLocation();
 }
 
@@ -22,6 +22,12 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
+
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
 	/* Move platform forwards
 			Get current location
 			Add vector to that location
@@ -39,12 +45,28 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 	if (distanceMoved > moveDistance)
 	{
-		FVector moveDirection = platformVelocity.GetSafeNormal(); // Gets a normalized copy of the vector, checking it is safe to do so based on the length
-																  // Normalize vector by 1
+		FString name = GetName();
+		float overShoot = distanceMoved - moveDistance;
+		UE_LOG(LogTemp, Display, TEXT("%s overshoot = %f"), *name, overShoot);
+		/*
+			https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Core/Logging/ELogVerbosity__Type?application_version=5.6#remarks
+			https://cplusplus.com/reference/cstdio/printf/
+		 */
+
+		FVector moveDirection = platformVelocity.GetSafeNormal();
+		/*
+		Gets a normalized copy of the vector, checking it is safe to do so based on the length
+		Normalize vector by 1
+		*/
+
 		startLocation += moveDirection * moveDistance;
 		SetActorLocation(startLocation);
 		platformVelocity = -platformVelocity;
 	}
 	// test = distanceMoved;
-	
+}
+
+void AMovingPlatform::RotatePlatform(float DeltaTime) 
+{
+	UE_LOG(LogTemp, Display, TEXT("Rotating... %s"), *GetName());
 }
