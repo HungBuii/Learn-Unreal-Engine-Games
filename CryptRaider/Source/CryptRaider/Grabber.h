@@ -24,5 +24,9 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+private:
+	float maxGrabDistance = 400; // centimet (unreal unit)
+
+	void PrintDamage(const float& damage);
+	bool HasDamage(float& outDamage);
 };
