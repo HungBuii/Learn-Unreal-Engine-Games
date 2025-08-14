@@ -27,6 +27,9 @@ public:
 private:
 	float maxGrabDistance = 400; // centimet (unreal unit)
 
-	void PrintDamage(const float& damage);
-	bool HasDamage(float& outDamage);
+	// void PrintDamage(const float& damage);
+	// bool HasDamage(float& outDamage);
+
+	UPROPERTY(EditAnywhere)
+	float grabRadius = 1;
 };
