@@ -37,16 +37,31 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	//
 	// UE_LOG(LogTemp, Display, TEXT("Time: %f"), GetWorld()->TimeSeconds);
 
-	FVector start = GetComponentLocation();
-	FVector end = start + GetForwardVector() * maxGrabDistance;
-	DrawDebugLine(GetWorld(), start, end, FColor::Red);
-
 	// float damage = 5;
 	// if (HasDamage(damage))
 	// {
 	// 	PrintDamage(damage);
 	// }
 	// UE_LOG(LogTemp, Display, TEXT("Original Damage: %f"), damage);
+	
+}
+
+// void UGrabber::PrintDamage(const float& damage)
+// {
+// 	UE_LOG(LogTemp, Display, TEXT("Damage: %f"), damage);
+// }
+//
+// bool UGrabber::HasDamage(float& outDamage)
+// {
+// 	outDamage = 6;
+// 	return true;
+// }
+
+void UGrabber::Grab()
+{
+	FVector start = GetComponentLocation();
+	FVector end = start + GetForwardVector() * maxGrabDistance;
+	DrawDebugLine(GetWorld(), start, end, FColor::Red);
 
 	FCollisionShape sphere = FCollisionShape::MakeSphere(grabRadius);
 	FHitResult hitResult;
@@ -64,16 +79,8 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	}
 }
 
-// void UGrabber::PrintDamage(const float& damage)
-// {
-// 	UE_LOG(LogTemp, Display, TEXT("Damage: %f"), damage);
-// }
-//
-// bool UGrabber::HasDamage(float& outDamage)
-// {
-// 	outDamage = 6;
-// 	return true;
-// }
-
-
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Display, TEXT("Release grabber!"));
+}
 
