@@ -17,17 +17,52 @@ void UTriggerComponent::BeginPlay()
 	// UE_LOG(LogTemp, Display, TEXT("Trigger Component Alive!"));
 }
 
-void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType,
+                                      FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// UE_LOG(LogTemp, Display, TEXT("Trigger Component is Ticking!"));
 
+	AActor* actor = GetAcceptableActor();
+	if (actor != nullptr)
+	{
+		UE_LOG(LogTemp, Display, TEXT("Unlocking...!"));
+	}
+	else UE_LOG(LogTemp, Display, TEXT("Relocking...!"));
+}
+
+AActor* UTriggerComponent::GetAcceptableActor() const
+{
 	TArray<AActor*> actors;
 	GetOverlappingActors(actors);
-	if (actors.Num() > 0)
+
+	/* Method 1 (while) */
+	// int index = 0;
+	// while (index < actors.Num())
+	// {
+	// 	FString actorName = actors[index]->GetActorNameOrLabel();
+	// 	UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *actorName);
+	// 	++index;
+	// }
+
+	/* Method 2 (for) */
+	// for (int i = 0; i < actors.Num(); i++)
+	// {
+	// 	FString actorName = actors[i]->GetActorNameOrLabel();
+	// 	UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *actorName);
+	// }
+
+	/* Method 3 (foreach) */
+	for (AActor* actor : actors)
 	{
-		FString actorName = actors[0]->GetActorNameOrLabel();
-		UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *actorName);
+		// FString actorName = actor->GetActorNameOrLabel();
+		// UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *actorName);
+		if (actor->ActorHasTag(acceptableActorTag))
+		{
+			// UE_LOG(LogTemp, Display, TEXT("Unlocking...!"));
+			return actor;
+		}
 	}
+	return nullptr;
 }
