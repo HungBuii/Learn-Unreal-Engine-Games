@@ -4,6 +4,7 @@
 #include "BasePawn.h"
 
 #include "Components/CapsuleComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -24,21 +25,33 @@ ABasePawn::ABasePawn()
 	ProjectitleSpawnPoint->SetupAttachment(TurretMesh);
 }
 
-// Called when the game starts or when spawned
-void ABasePawn::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
 // Called every frame
-void ABasePawn::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
+// void ABasePawn::Tick(float DeltaTime)
+// {
+// 	Super::Tick(DeltaTime);
+//
+// 	// FVector DeltaLocation(0.f);
+// 	// DeltaLocation.X = 2.f;
+// 	// AddActorLocalOffset(DeltaLocation);
+// }
 
-	// FVector DeltaLocation(0.f);
-	// DeltaLocation.X = 2.f;
-	// AddActorLocalOffset(DeltaLocation);
+void ABasePawn::RotateTurret(FVector LookAtTarget)
+{
+	// All vectors using are "World Space" not "Local Space"
+	FVector ToTarget = LookAtTarget - TurretMesh->GetComponentLocation();
+	
+	// FRotator LookAtRotation = ToTarget.Rotation(); // Not use it because we will take care only "Yaw" rotation
+	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
+	
+	TurretMesh->SetWorldRotation // Not use "AddActorLocalRotation()"
+	(
+		FMath::RInterpTo(TurretMesh->GetComponentRotation(),
+			LookAtRotation,
+			UGameplayStatics::GetWorldDeltaSeconds(this),
+			25.f) // Interpolation speed, if the speed given is 0, then jump to the target. Speed higher -> spin faster 
+			); // Use "Interpolation" help tries to reach Target rotation based on Current rotation,
+	           // giving a nice smooth feeling when rotating to Target rotation. (Target is Kismet Math Library)
+	
 }
 
 

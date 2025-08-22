@@ -7,8 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/InputComponent.h"
 #include "Kismet/GameplayStatics.h"
-
-
+#include "DrawDebugHelpers.h"
 
 
 ATank::ATank()
@@ -18,6 +17,50 @@ ATank::ATank()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
+}
+
+// Called when the game starts or when spawned
+void ATank::BeginPlay()
+{
+	Super::BeginPlay();
+
+	PlayerControllerRef = Cast<APlayerController>(GetController());
+
+	// DrawDebugSphere(
+	// 	GetWorld(),
+	// 	GetActorLocation() + FVector(0.f, 0.f, 200.f),
+	// 	100.f,
+	// 	12,
+	// 	FColor::Red,
+	// 	false,
+	// 	30.f);
+}
+
+// Called every frame
+void ATank::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (PlayerControllerRef)
+	{
+		FHitResult HitResult;
+		PlayerControllerRef->GetHitResultUnderCursor(
+			ECollisionChannel::ECC_Visibility,
+			false,
+			HitResult);
+			
+		DrawDebugSphere(
+        		GetWorld(),
+        		HitResult.ImpactPoint,
+        		25.f,
+        		12,
+        		FColor::Red,
+        		false,
+        		-1.f);
+
+		RotateTurret(HitResult.ImpactPoint);
+        		
+	}
 }
 
 // Called to bind functionality to input

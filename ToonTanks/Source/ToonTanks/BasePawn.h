@@ -15,15 +15,14 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
+protected:
+	void RotateTurret(FVector LookAtTarget);
+	
 	// UPROPERTY(VisibleInstanceOnly)
 	// int32 VisibleInstanceOnlyInt = 11;
 
 	// UPROPERTY(EditAnywhere)
 	// float Speed = 400.f;
-	
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category= "Components", meta = (AllowPrivateAccess = "true"))
@@ -39,10 +38,6 @@ private:
 	// int32 VisibleAnywhereInt = 12;
 	//
 	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Super Duper", meta=(AllowPrivateAccess = "true"))
-	// int32 EditAnywhereInt = 22;
-	
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	// int32 EditAnywhereInt = 22
 
 };
