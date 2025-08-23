@@ -5,6 +5,7 @@
 
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ABasePawn::ABasePawn()
@@ -52,6 +53,19 @@ void ABasePawn::RotateTurret(FVector LookAtTarget)
 			); // Use "Interpolation" help tries to reach Target rotation based on Current rotation,
 	           // giving a nice smooth feeling when rotating to Target rotation. (Target is Kismet Math Library)
 	
+}
+
+void ABasePawn::Fire()
+{
+	FVector ProjectileSpawnPointLocation = ProjectitleSpawnPoint->GetComponentLocation();
+	DrawDebugSphere(
+		GetWorld(),
+		ProjectileSpawnPointLocation,
+		25.f,
+		12,
+		FColor::Green,
+		false,
+		3.f);
 }
 
 

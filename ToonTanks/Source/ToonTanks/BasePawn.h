@@ -17,6 +17,8 @@ public:
 
 protected:
 	void RotateTurret(FVector LookAtTarget);
+
+	void Fire();
 	
 	// UPROPERTY(VisibleInstanceOnly)
 	// int32 VisibleInstanceOnlyInt = 11;
