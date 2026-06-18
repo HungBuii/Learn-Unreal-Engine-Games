@@ -8,6 +8,7 @@
 #include "Blueprint/UserWidget.h"
 #include "RobotShooter.h"
 #include "Widgets/Input/SVirtualJoystick.h"
+#include "HUDWidget.h"
 
 void ARobotShooterPlayerController::BeginPlay()
 {
@@ -29,7 +30,13 @@ void ARobotShooterPlayerController::BeginPlay()
 			UE_LOG(LogRobotShooter, Error, TEXT("Could not spawn mobile controls widget."));
 
 		}
-
+	}
+	
+	HUDWidget = CreateWidget<UHUDWidget>(this, HUDWidgetClass);
+		
+	if (HUDWidget)
+	{
+		HUDWidget->AddToViewport();
 	}
 }
 

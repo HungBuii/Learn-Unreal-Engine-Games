@@ -8,6 +8,7 @@
 
 class UInputMappingContext;
 class UUserWidget;
+class UHUDWidget;
 
 /**
  *  Basic PlayerController class for a third person game
@@ -40,5 +41,10 @@ protected:
 
 	/** Input mapping context setup */
 	virtual void SetupInputComponent() override;
-
+	
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UHUDWidget> HUDWidgetClass;
+	
+	UPROPERTY(VisibleAnywhere)
+	UHUDWidget* HUDWidget;
 };
