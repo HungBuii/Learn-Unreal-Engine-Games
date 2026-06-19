@@ -7,6 +7,7 @@
 #include "Logging/LogMacros.h"
 #include "RobotShooterCharacter.generated.h"
 
+class AGun;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputAction;
@@ -64,7 +65,10 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 protected:
-
+	
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
 
@@ -99,5 +103,10 @@ public:
 
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AGun> GunClass;
+	
+	TObjectPtr<AGun> Gun;
 };
 

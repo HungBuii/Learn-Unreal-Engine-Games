@@ -9,6 +9,7 @@
 #include "GameFramework/Controller.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "Gun.h"
 #include "InputActionValue.h"
 #include "RobotShooter.h"
 
@@ -75,6 +76,16 @@ void ARobotShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	}
 }
 
+void ARobotShooterCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	
+	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+	
+	if (Gun) 
+		Gun->SetOwner(this);
+}
+
 void ARobotShooterCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
@@ -95,7 +106,8 @@ void ARobotShooterCharacter::Look(const FInputActionValue& Value)
 
 void ARobotShooterCharacter::Shoot()
 {
-	UE_LOG(LogTemp, Display, TEXT("Shoot!"));
+	if (Gun)
+		Gun->PullTrigger();
 }
 
 void ARobotShooterCharacter::DoMove(float Right, float Forward)
