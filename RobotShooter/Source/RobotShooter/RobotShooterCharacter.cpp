@@ -88,6 +88,7 @@ void ARobotShooterCharacter::BeginPlay()
 	{
 		Gun->SetOwner(this);
 		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+		Gun->OwnerController = GetController();
 	}
 }
 
