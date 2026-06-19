@@ -80,10 +80,15 @@ void ARobotShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	GetMesh()->HideBoneByName("weapon_r", PBO_None);
+	
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
 	
-	if (Gun) 
+	if (Gun)
+	{
 		Gun->SetOwner(this);
+		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+	}
 }
 
 void ARobotShooterCharacter::Move(const FInputActionValue& Value)
