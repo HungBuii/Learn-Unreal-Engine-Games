@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "Gun.generated.h"
 
+class UNiagaraComponent;
+class UNiagaraSystem;
+
 UCLASS()
 class ROBOTSHOOTER_API AGun : public AActor
 {
@@ -28,6 +31,12 @@ public:
 	
 	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent* Mesh;
+	
+	UPROPERTY(VisibleAnywhere)
+	UNiagaraComponent* MuzzleFlashParticleSystem;
+	
+	UPROPERTY(EditAnywhere)
+	UNiagaraSystem* ImpactParticleSystem;
 	
 	UPROPERTY(EditAnywhere)
 	float MaxRange = 10000.f;
