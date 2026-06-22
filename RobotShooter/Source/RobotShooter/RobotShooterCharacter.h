@@ -108,5 +108,9 @@ public:
 	TSubclassOf<AGun> GunClass;
 	
 	TObjectPtr<AGun> Gun;
+	
+	UFUNCTION()
+	void OnDamageTaken(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, 
+		class AController* InstigatedBy, AActor* DamageCauser);
 };
 

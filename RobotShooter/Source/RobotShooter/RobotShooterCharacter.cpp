@@ -80,6 +80,8 @@ void ARobotShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	OnTakeAnyDamage.AddDynamic(this, &ARobotShooterCharacter::OnDamageTaken);
+	
 	GetMesh()->HideBoneByName("weapon_r", PBO_None);
 	
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
@@ -156,4 +158,10 @@ void ARobotShooterCharacter::DoJumpEnd()
 {
 	// signal the character to stop jumping
 	StopJumping();
+}
+
+void ARobotShooterCharacter::OnDamageTaken(AActor* DamagedActor, float Damage, const class UDamageType* DamageType,
+	class AController* InstigatedBy, AActor* DamageCauser)
+{
+	UE_LOG(LogTemp, Display, TEXT("Damage taken: %f"), Damage);
 }
