@@ -113,7 +113,8 @@ public:
 	float MaxHealth = 100.0f;
 
 	float Health;
-
+	
+	UPROPERTY(BlueprintReadOnly)
 	bool IsAlive = true;
 	
 	UFUNCTION()
