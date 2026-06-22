@@ -82,6 +82,8 @@ void ARobotShooterCharacter::BeginPlay()
 	
 	OnTakeAnyDamage.AddDynamic(this, &ARobotShooterCharacter::OnDamageTaken);
 	
+	Health = MaxHealth;
+	
 	GetMesh()->HideBoneByName("weapon_r", PBO_None);
 	
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
@@ -163,5 +165,18 @@ void ARobotShooterCharacter::DoJumpEnd()
 void ARobotShooterCharacter::OnDamageTaken(AActor* DamagedActor, float Damage, const class UDamageType* DamageType,
 	class AController* InstigatedBy, AActor* DamageCauser)
 {
-	UE_LOG(LogTemp, Display, TEXT("Damage taken: %f"), Damage);
+	if (IsAlive)
+	{
+		UE_LOG(LogTemp, Display, TEXT("Damage taken: %f"), Damage);
+
+		Health -= Damage;
+		if (Health <= 0.0f)
+		{
+			IsAlive = false;
+			Health = 0.0f;
+			// GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+			UE_LOG(LogTemp, Display, TEXT("Character died: %s"), *GetActorNameOrLabel());
+		}
+	}
 }
