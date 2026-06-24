@@ -9,25 +9,29 @@ void AShooterAI::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	if (EnemyAIBehaviorTree)
+	{
+		RunBehaviorTree(EnemyAIBehaviorTree);
+	}
 }
 
 void AShooterAI::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-	if (PlayerPawn)
-	{
-		if (LineOfSightTo(PlayerPawn))
-		{
-			SetFocus(PlayerPawn);
-			MoveToActor(PlayerPawn, 200.0f);
-		}
-		else
-		{
-			ClearFocus(EAIFocusPriority::Gameplay);
-			StopMovement();
-		}
-	}
+	// APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	// if (PlayerPawn)
+	// {
+	// 	if (LineOfSightTo(PlayerPawn))
+	// 	{
+	// 		SetFocus(PlayerPawn);
+	// 		MoveToActor(PlayerPawn, 200.0f);
+	// 	}
+	// 	else
+	// 	{
+	// 		ClearFocus(EAIFocusPriority::Gameplay);
+	// 		StopMovement();
+	// 	}
+	// }
 	
 }
