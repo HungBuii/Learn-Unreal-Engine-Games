@@ -6,6 +6,7 @@
 #include "AIController.h"
 #include "ShooterAI.generated.h"
 
+class ARobotShooterCharacter;
 /**
  * 
  */
@@ -22,4 +23,9 @@ public:
 	
 	UPROPERTY(EditAnywhere)
 	UBehaviorTree* EnemyAIBehaviorTree;
+	
+	TObjectPtr<ARobotShooterCharacter> PlayerCharacter;
+	TObjectPtr<ARobotShooterCharacter> MyCharacter;
+
+	void StartBehaviorTree(ARobotShooterCharacter* Player);
 };

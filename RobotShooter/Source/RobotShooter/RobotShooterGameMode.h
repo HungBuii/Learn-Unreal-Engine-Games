@@ -18,6 +18,9 @@ public:
 	
 	/** Constructor */
 	ARobotShooterGameMode();
+	
+protected:
+	virtual void BeginPlay() override;
 };
 
 
