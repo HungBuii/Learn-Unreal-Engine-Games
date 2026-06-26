@@ -50,7 +50,7 @@ void AShooterAI::StartBehaviorTree(ARobotShooterCharacter* Player)
 		UBlackboardComponent* MyBlackboard = GetBlackboardComponent();
 		if (MyBlackboard && PlayerCharacter && MyCharacter)
 		{
-			MyBlackboard->SetValueAsVector("PlayerLocation", PlayerCharacter->GetActorLocation());
+			// MyBlackboard->SetValueAsVector("PlayerLocation", PlayerCharacter->GetActorLocation());
 			MyBlackboard->SetValueAsVector("StartLocation", MyCharacter->GetActorLocation());
 		}
 	}
