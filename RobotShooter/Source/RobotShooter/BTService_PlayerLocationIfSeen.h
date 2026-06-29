@@ -17,5 +17,6 @@ class ROBOTSHOOTER_API UBTService_PlayerLocationIfSeen : public UBTService_Black
 public:
 	UBTService_PlayerLocationIfSeen();
 	
+protected:
 	virtual void TickNode (UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
 };
