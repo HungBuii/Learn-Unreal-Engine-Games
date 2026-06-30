@@ -175,6 +175,7 @@ void ARobotShooterCharacter::OnDamageTaken(AActor* DamagedActor, float Damage, c
 			IsAlive = false;
 			Health = 0.0f;
 			GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+			DetachFromControllerPendingDestroy();
 
 			UE_LOG(LogTemp, Display, TEXT("Character died: %s"), *GetActorNameOrLabel());
 		}
