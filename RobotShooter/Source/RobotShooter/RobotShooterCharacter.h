@@ -109,6 +109,8 @@ public:
 	
 	TObjectPtr<AGun> Gun;
 	
+	void UpdateHUD();
+	
 	UPROPERTY(EditAnywhere)
 	float MaxHealth = 100.0f;
 

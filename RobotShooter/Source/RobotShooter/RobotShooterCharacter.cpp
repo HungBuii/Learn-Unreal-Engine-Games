@@ -10,8 +10,10 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "Gun.h"
+#include "HUDWidget.h"
 #include "InputActionValue.h"
 #include "RobotShooter.h"
+#include "RobotShooterPlayerController.h"
 
 ARobotShooterCharacter::ARobotShooterCharacter()
 {
@@ -83,6 +85,7 @@ void ARobotShooterCharacter::BeginPlay()
 	OnTakeAnyDamage.AddDynamic(this, &ARobotShooterCharacter::OnDamageTaken);
 	
 	Health = MaxHealth;
+	UpdateHUD();
 	
 	GetMesh()->HideBoneByName("weapon_r", PBO_None);
 	
@@ -162,14 +165,31 @@ void ARobotShooterCharacter::DoJumpEnd()
 	StopJumping();
 }
 
+void ARobotShooterCharacter::UpdateHUD()
+{
+	ARobotShooterPlayerController* PlayerController = Cast<ARobotShooterPlayerController>(GetController());
+	if (PlayerController)
+	{
+		float NewPercent = Health / MaxHealth;
+		if (NewPercent < 0.0f)
+		{
+			NewPercent = 0.0f;
+		}
+
+		PlayerController->HUDWidget->SetHealthBarPercent(NewPercent);
+	}
+}
+
 void ARobotShooterCharacter::OnDamageTaken(AActor* DamagedActor, float Damage, const class UDamageType* DamageType,
-	class AController* InstigatedBy, AActor* DamageCauser)
+                                           class AController* InstigatedBy, AActor* DamageCauser)
 {
 	if (IsAlive)
 	{
 		UE_LOG(LogTemp, Display, TEXT("Damage taken: %f"), Damage);
 
 		Health -= Damage;
+		UpdateHUD();
+		
 		if (Health <= 0.0f)
 		{
 			IsAlive = false;
